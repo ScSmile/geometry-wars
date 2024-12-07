@@ -1,0 +1,4 @@
+# ninja log v5
+2	625	7522514032623733	CMakeFiles/ImGui-SFML.dir/imgui-SFML.cpp.obj	2552e0ec7b42669a
+627	664	7522514032936242	ImGui-SFML.lib	db58a8133172377d
+664	717	0	CMakeFiles/install.util	cfbcabaa6fd40624

@@ -1,0 +1,13 @@
+Package: imgui
+Version: 1.90.7
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 9106164d0a2108d1f43172c0a4fada5ab9c2fa5463f1cc5b10fe9493890d4355
+Description: Bloat-free Immediate Mode Graphical User interface for C++ with minimal dependencies.
+
+Package: imgui
+Feature: docking-experimental
+Architecture: x64-windows
+Multi-Arch: same
+Description: Build with docking support

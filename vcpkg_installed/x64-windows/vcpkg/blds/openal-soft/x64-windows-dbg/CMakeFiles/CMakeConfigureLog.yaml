@@ -1,0 +1,966 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:65 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:65 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/cl.exe 
+      Build flags: /nologo;/DWIN32;/D_WINDOWS;/W3;/utf-8;/MP
+      Id flags:  
+      
+      The output was:
+      0
+      CMakeCCompilerId.c
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/3.29.2/CompilerIdC/CMakeCCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1216 (message)"
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:65 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        main.c
+        Примечание: включение файла:  C:\\Users\\ScSmile\\source\\repos\\Assignment_2\\vcpkg_installed\\x64-windows\\vcpkg\\blds\\openal-soft\\x64-windows-dbg\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Примечание: включение файла:  "
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:65 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/cl.exe 
+      Build flags: /nologo;/DWIN32;/D_WINDOWS;/W3;/utf-8;/GR;/EHsc;/MP
+      Id flags:  
+      
+      The output was:
+      0
+      CMakeCXXCompilerId.cpp
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/3.29.2/CompilerIdCXX/CMakeCXXCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1216 (message)"
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:65 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        main.c
+        Примечание: включение файла:  C:\\Users\\ScSmile\\source\\repos\\Assignment_2\\vcpkg_installed\\x64-windows\\vcpkg\\blds\\openal-soft\\x64-windows-dbg\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Примечание: включение файла:  "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:65 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-gpctp3"
+      binary: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-gpctp3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-gpctp3'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_7f614
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_7f614.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_7f614.dir\\ /FS -c C:\\Users\\ScSmile\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.29.2-windows\\cmake-3.29.2-windows-i386\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\ScSmile\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.29.2-windows\\cmake-3.29.2-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_7f614.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_7f614.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_7f614.exe /implib:cmTC_7f614.lib /pdb:cmTC_7f614.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:170 (message)"
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:65 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/PROGRA~1/MICROS~3/2022/COMMUN~1/VC/Tools/MSVC/1441~1.341/bin/Hostx64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:65 (project)"
+    message: |
+      Running the C compiler's linker: "C:/PROGRA~1/MICROS~3/2022/COMMUN~1/VC/Tools/MSVC/1441~1.341/bin/Hostx64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.41.34123.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:65 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-yhn3ce"
+      binary: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-yhn3ce"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /GR /EHsc /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-yhn3ce'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_abd45
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /GR /EHsc /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_abd45.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_abd45.dir\\ /FS -c C:\\Users\\ScSmile\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.29.2-windows\\cmake-3.29.2-windows-i386\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\ScSmile\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.29.2-windows\\cmake-3.29.2-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_abd45.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_abd45.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_abd45.exe /implib:cmTC_abd45.lib /pdb:cmTC_abd45.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:170 (message)"
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:65 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/PROGRA~1/MICROS~3/2022/COMMUN~1/VC/Tools/MSVC/1441~1.341/bin/Hostx64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:65 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/PROGRA~1/MICROS~3/2022/COMMUN~1/VC/Tools/MSVC/1441~1.341/bin/Hostx64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.41.34123.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:206 (check_cxx_source_compiles)"
+    checks:
+      - "Performing Test HAVE___RESTRICT"
+    directories:
+      source: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-25j1a0"
+      binary: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-25j1a0"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /GR /EHsc /MP "
+      CMAKE_MODULE_PATH: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/src/1.23.1-180897dbaa.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE___RESTRICT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-25j1a0'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_82c9b
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE___RESTRICT  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /GR /EHsc /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_82c9b.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_82c9b.dir\\ /FS -c C:\\Users\\ScSmile\\source\\repos\\Assignment_2\\vcpkg_installed\\x64-windows\\vcpkg\\blds\\openal-soft\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-25j1a0\\src.cxx
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\ScSmile\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.29.2-windows\\cmake-3.29.2-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_82c9b.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_82c9b.dir\\src.cxx.obj  /out:cmTC_82c9b.exe /implib:cmTC_82c9b.lib /pdb:cmTC_82c9b.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:217 (check_cxx_source_compiles)"
+    checks:
+      - "Performing Test HAVE_LIBATOMIC"
+    directories:
+      source: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-ikqowu"
+      binary: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-ikqowu"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /GR /EHsc /MP "
+      CMAKE_MODULE_PATH: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/src/1.23.1-180897dbaa.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_LIBATOMIC"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-ikqowu'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_b9f91
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_LIBATOMIC  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /GR /EHsc /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_b9f91.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_b9f91.dir\\ /FS -c C:\\Users\\ScSmile\\source\\repos\\Assignment_2\\vcpkg_installed\\x64-windows\\vcpkg\\blds\\openal-soft\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-ikqowu\\src.cxx
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\ScSmile\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.29.2-windows\\cmake-3.29.2-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_b9f91.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_b9f91.dir\\src.cxx.obj  /out:cmTC_b9f91.exe /implib:cmTC_b9f91.lib /pdb:cmTC_b9f91.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  atomic.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_b9f91.exe 
+        C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\ScSmile\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.29.2-windows\\cmake-3.29.2-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_b9f91.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_b9f91.dir\\src.cxx.obj  /out:cmTC_b9f91.exe /implib:cmTC_b9f91.lib /pdb:cmTC_b9f91.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  atomic.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_b9f91.dir\\src.cxx.obj /out:cmTC_b9f91.exe /implib:cmTC_b9f91.lib /pdb:cmTC_b9f91.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console atomic.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_b9f91.dir/intermediate.manifest CMakeFiles\\cmTC_b9f91.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: не удается открыть файл "atomic.lib"\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:239 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_PERMISSIVE_SWITCH"
+    directories:
+      source: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-1uoet9"
+      binary: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-1uoet9"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /GR /EHsc /MP "
+      CMAKE_MODULE_PATH: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/src/1.23.1-180897dbaa.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_PERMISSIVE_SWITCH"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-1uoet9'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_eaaba
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_PERMISSIVE_SWITCH  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /GR /EHsc /MP   /MDd /Zi /Ob0 /Od /RTC1   /permissive- /showIncludes /FoCMakeFiles\\cmTC_eaaba.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_eaaba.dir\\ /FS -c C:\\Users\\ScSmile\\source\\repos\\Assignment_2\\vcpkg_installed\\x64-windows\\vcpkg\\blds\\openal-soft\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-1uoet9\\src.cxx
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\ScSmile\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.29.2-windows\\cmake-3.29.2-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_eaaba.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_eaaba.dir\\src.cxx.obj  /out:cmTC_eaaba.exe /implib:cmTC_eaaba.lib /pdb:cmTC_eaaba.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:387 (check_include_file)"
+    checks:
+      - "Looking for xmmintrin.h"
+    directories:
+      source: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-ip6a38"
+      binary: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-ip6a38"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MODULE_PATH: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/src/1.23.1-180897dbaa.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_XMMINTRIN_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-ip6a38'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_01ce1
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_01ce1.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_01ce1.dir\\ /FS -c C:\\Users\\ScSmile\\source\\repos\\Assignment_2\\vcpkg_installed\\x64-windows\\vcpkg\\blds\\openal-soft\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-ip6a38\\CheckIncludeFile.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\ScSmile\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.29.2-windows\\cmake-3.29.2-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_01ce1.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_01ce1.dir\\CheckIncludeFile.c.obj  /out:cmTC_01ce1.exe /implib:cmTC_01ce1.lib /pdb:cmTC_01ce1.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:388 (check_include_file)"
+    checks:
+      - "Looking for emmintrin.h"
+    directories:
+      source: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-5icpxh"
+      binary: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-5icpxh"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MODULE_PATH: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/src/1.23.1-180897dbaa.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_EMMINTRIN_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-5icpxh'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_d3ac2
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_d3ac2.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_d3ac2.dir\\ /FS -c C:\\Users\\ScSmile\\source\\repos\\Assignment_2\\vcpkg_installed\\x64-windows\\vcpkg\\blds\\openal-soft\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-5icpxh\\CheckIncludeFile.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\ScSmile\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.29.2-windows\\cmake-3.29.2-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_d3ac2.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_d3ac2.dir\\CheckIncludeFile.c.obj  /out:cmTC_d3ac2.exe /implib:cmTC_d3ac2.lib /pdb:cmTC_d3ac2.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:389 (check_include_file)"
+    checks:
+      - "Looking for pmmintrin.h"
+    directories:
+      source: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-x9opbv"
+      binary: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-x9opbv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MODULE_PATH: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/src/1.23.1-180897dbaa.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_PMMINTRIN_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-x9opbv'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_e5be0
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_e5be0.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_e5be0.dir\\ /FS -c C:\\Users\\ScSmile\\source\\repos\\Assignment_2\\vcpkg_installed\\x64-windows\\vcpkg\\blds\\openal-soft\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-x9opbv\\CheckIncludeFile.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\ScSmile\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.29.2-windows\\cmake-3.29.2-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_e5be0.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_e5be0.dir\\CheckIncludeFile.c.obj  /out:cmTC_e5be0.exe /implib:cmTC_e5be0.lib /pdb:cmTC_e5be0.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:390 (check_include_file)"
+    checks:
+      - "Looking for smmintrin.h"
+    directories:
+      source: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-x7kx6v"
+      binary: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-x7kx6v"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MODULE_PATH: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/src/1.23.1-180897dbaa.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_SMMINTRIN_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-x7kx6v'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_c2564
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_c2564.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_c2564.dir\\ /FS -c C:\\Users\\ScSmile\\source\\repos\\Assignment_2\\vcpkg_installed\\x64-windows\\vcpkg\\blds\\openal-soft\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-x7kx6v\\CheckIncludeFile.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\ScSmile\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.29.2-windows\\cmake-3.29.2-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_c2564.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_c2564.dir\\CheckIncludeFile.c.obj  /out:cmTC_c2564.exe /implib:cmTC_c2564.lib /pdb:cmTC_c2564.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:391 (check_include_file)"
+    checks:
+      - "Looking for arm_neon.h"
+    directories:
+      source: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-ta04x0"
+      binary: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-ta04x0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MODULE_PATH: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/src/1.23.1-180897dbaa.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_ARM_NEON_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-ta04x0'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_0fd6c
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_0fd6c.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_0fd6c.dir\\ /FS -c C:\\Users\\ScSmile\\source\\repos\\Assignment_2\\vcpkg_installed\\x64-windows\\vcpkg\\blds\\openal-soft\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-ta04x0\\CheckIncludeFile.c
+        FAILED: CMakeFiles/cmTC_0fd6c.dir/CheckIncludeFile.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_0fd6c.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_0fd6c.dir\\ /FS -c C:\\Users\\ScSmile\\source\\repos\\Assignment_2\\vcpkg_installed\\x64-windows\\vcpkg\\blds\\openal-soft\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-ta04x0\\CheckIncludeFile.c
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\arm_neon.h(21): fatal error C1189: #error:  This header is specific to ARM targets
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:489 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_SSE_INTRINSICS"
+    directories:
+      source: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-si2c47"
+      binary: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-si2c47"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MODULE_PATH: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/src/1.23.1-180897dbaa.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_SSE_INTRINSICS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-si2c47'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_6c534
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_SSE_INTRINSICS  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_6c534.dir\\src.c.obj /FdCMakeFiles\\cmTC_6c534.dir\\ /FS -c C:\\Users\\ScSmile\\source\\repos\\Assignment_2\\vcpkg_installed\\x64-windows\\vcpkg\\blds\\openal-soft\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-si2c47\\src.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\ScSmile\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.29.2-windows\\cmake-3.29.2-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_6c534.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_6c534.dir\\src.c.obj  /out:cmTC_6c534.exe /implib:cmTC_6c534.lib /pdb:cmTC_6c534.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:496 (check_include_file)"
+    checks:
+      - "Looking for malloc.h"
+    directories:
+      source: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-9m5xc8"
+      binary: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-9m5xc8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MODULE_PATH: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/src/1.23.1-180897dbaa.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_MALLOC_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-9m5xc8'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_8bca3
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_8bca3.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_8bca3.dir\\ /FS -c C:\\Users\\ScSmile\\source\\repos\\Assignment_2\\vcpkg_installed\\x64-windows\\vcpkg\\blds\\openal-soft\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-9m5xc8\\CheckIncludeFile.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\ScSmile\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.29.2-windows\\cmake-3.29.2-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_8bca3.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_8bca3.dir\\CheckIncludeFile.c.obj  /out:cmTC_8bca3.exe /implib:cmTC_8bca3.lib /pdb:cmTC_8bca3.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:497 (check_include_file)"
+    checks:
+      - "Looking for cpuid.h"
+    directories:
+      source: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-v7qclh"
+      binary: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-v7qclh"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MODULE_PATH: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/src/1.23.1-180897dbaa.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_CPUID_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-v7qclh'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_da2e0
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_da2e0.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_da2e0.dir\\ /FS -c C:\\Users\\ScSmile\\source\\repos\\Assignment_2\\vcpkg_installed\\x64-windows\\vcpkg\\blds\\openal-soft\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-v7qclh\\CheckIncludeFile.c
+        FAILED: CMakeFiles/cmTC_da2e0.dir/CheckIncludeFile.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_da2e0.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_da2e0.dir\\ /FS -c C:\\Users\\ScSmile\\source\\repos\\Assignment_2\\vcpkg_installed\\x64-windows\\vcpkg\\blds\\openal-soft\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-v7qclh\\CheckIncludeFile.c
+        C:\\Users\\ScSmile\\source\\repos\\Assignment_2\\vcpkg_installed\\x64-windows\\vcpkg\\blds\\openal-soft\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-v7qclh\\CheckIncludeFile.c(1): fatal error C1083: Не удается открыть файл включение: cpuid.h: No such file or directory,
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:498 (check_include_file)"
+    checks:
+      - "Looking for intrin.h"
+    directories:
+      source: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-5kwxl0"
+      binary: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-5kwxl0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MODULE_PATH: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/src/1.23.1-180897dbaa.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_INTRIN_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-5kwxl0'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_19a06
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_19a06.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_19a06.dir\\ /FS -c C:\\Users\\ScSmile\\source\\repos\\Assignment_2\\vcpkg_installed\\x64-windows\\vcpkg\\blds\\openal-soft\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-5kwxl0\\CheckIncludeFile.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\ScSmile\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.29.2-windows\\cmake-3.29.2-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_19a06.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_19a06.dir\\CheckIncludeFile.c.obj  /out:cmTC_19a06.exe /implib:cmTC_19a06.lib /pdb:cmTC_19a06.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:499 (check_include_file)"
+    checks:
+      - "Looking for guiddef.h"
+    directories:
+      source: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-2y18f8"
+      binary: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-2y18f8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MODULE_PATH: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/src/1.23.1-180897dbaa.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_GUIDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-2y18f8'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_c2a00
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_c2a00.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_c2a00.dir\\ /FS -c C:\\Users\\ScSmile\\source\\repos\\Assignment_2\\vcpkg_installed\\x64-windows\\vcpkg\\blds\\openal-soft\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-2y18f8\\CheckIncludeFile.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\ScSmile\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.29.2-windows\\cmake-3.29.2-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_c2a00.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_c2a00.dir\\CheckIncludeFile.c.obj  /out:cmTC_c2a00.exe /implib:cmTC_c2a00.lib /pdb:cmTC_c2a00.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "CMakeLists.txt:506 (check_library_exists)"
+    checks:
+      - "Looking for pow in m"
+    directories:
+      source: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-qyhpf6"
+      binary: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-qyhpf6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MODULE_PATH: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/src/1.23.1-180897dbaa.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_LIBM"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-qyhpf6'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_32252
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  -DCHECK_FUNCTION_EXISTS=pow /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_32252.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_32252.dir\\ /FS -c C:\\Users\\ScSmile\\source\\repos\\Assignment_2\\vcpkg_installed\\x64-windows\\vcpkg\\blds\\openal-soft\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-qyhpf6\\CheckFunctionExists.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\ScSmile\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.29.2-windows\\cmake-3.29.2-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_32252.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_32252.dir\\CheckFunctionExists.c.obj  /out:cmTC_32252.exe /implib:cmTC_32252.lib /pdb:cmTC_32252.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  m.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_32252.exe 
+        C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\ScSmile\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.29.2-windows\\cmake-3.29.2-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_32252.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_32252.dir\\CheckFunctionExists.c.obj  /out:cmTC_32252.exe /implib:cmTC_32252.lib /pdb:cmTC_32252.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  m.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_32252.dir\\CheckFunctionExists.c.obj /out:cmTC_32252.exe /implib:cmTC_32252.lib /pdb:cmTC_32252.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console m.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_32252.dir/intermediate.manifest CMakeFiles\\cmTC_32252.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: не удается открыть файл "m.lib"\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "CMakeLists.txt:515 (check_library_exists)"
+    checks:
+      - "Looking for clock_gettime in rt"
+    directories:
+      source: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-fwceyx"
+      binary: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-fwceyx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MODULE_PATH: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/src/1.23.1-180897dbaa.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_LIBRT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-fwceyx'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_b6f49
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  -DCHECK_FUNCTION_EXISTS=clock_gettime /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_b6f49.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_b6f49.dir\\ /FS -c C:\\Users\\ScSmile\\source\\repos\\Assignment_2\\vcpkg_installed\\x64-windows\\vcpkg\\blds\\openal-soft\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-fwceyx\\CheckFunctionExists.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\ScSmile\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.29.2-windows\\cmake-3.29.2-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_b6f49.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_b6f49.dir\\CheckFunctionExists.c.obj  /out:cmTC_b6f49.exe /implib:cmTC_b6f49.lib /pdb:cmTC_b6f49.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  rt.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_b6f49.exe 
+        C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\ScSmile\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.29.2-windows\\cmake-3.29.2-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_b6f49.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_b6f49.dir\\CheckFunctionExists.c.obj  /out:cmTC_b6f49.exe /implib:cmTC_b6f49.lib /pdb:cmTC_b6f49.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  rt.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_b6f49.dir\\CheckFunctionExists.c.obj /out:cmTC_b6f49.exe /implib:cmTC_b6f49.lib /pdb:cmTC_b6f49.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console rt.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_b6f49.dir/intermediate.manifest CMakeFiles\\cmTC_b6f49.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: не удается открыть файл "rt.lib"\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:522 (check_include_file)"
+    checks:
+      - "Looking for dlfcn.h"
+    directories:
+      source: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-y1rchq"
+      binary: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-y1rchq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MODULE_PATH: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/src/1.23.1-180897dbaa.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_DLFCN_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-y1rchq'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_6c6bc
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_6c6bc.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_6c6bc.dir\\ /FS -c C:\\Users\\ScSmile\\source\\repos\\Assignment_2\\vcpkg_installed\\x64-windows\\vcpkg\\blds\\openal-soft\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-y1rchq\\CheckIncludeFile.c
+        FAILED: CMakeFiles/cmTC_6c6bc.dir/CheckIncludeFile.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_6c6bc.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_6c6bc.dir\\ /FS -c C:\\Users\\ScSmile\\source\\repos\\Assignment_2\\vcpkg_installed\\x64-windows\\vcpkg\\blds\\openal-soft\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-y1rchq\\CheckIncludeFile.c
+        C:\\Users\\ScSmile\\source\\repos\\Assignment_2\\vcpkg_installed\\x64-windows\\vcpkg\\blds\\openal-soft\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-y1rchq\\CheckIncludeFile.c(1): fatal error C1083: Не удается открыть файл включение: dlfcn.h: No such file or directory,
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "CMakeLists.txt:523 (check_library_exists)"
+    checks:
+      - "Looking for dlopen in dl"
+    directories:
+      source: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-qrh22t"
+      binary: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-qrh22t"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MODULE_PATH: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/src/1.23.1-180897dbaa.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_LIBDL"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-qrh22t'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_4c331
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP  -DCHECK_FUNCTION_EXISTS=dlopen /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_4c331.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_4c331.dir\\ /FS -c C:\\Users\\ScSmile\\source\\repos\\Assignment_2\\vcpkg_installed\\x64-windows\\vcpkg\\blds\\openal-soft\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-qrh22t\\CheckFunctionExists.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\ScSmile\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.29.2-windows\\cmake-3.29.2-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_4c331.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_4c331.dir\\CheckFunctionExists.c.obj  /out:cmTC_4c331.exe /implib:cmTC_4c331.lib /pdb:cmTC_4c331.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  dl.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_4c331.exe 
+        C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\ScSmile\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.29.2-windows\\cmake-3.29.2-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_4c331.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_4c331.dir\\CheckFunctionExists.c.obj  /out:cmTC_4c331.exe /implib:cmTC_4c331.lib /pdb:cmTC_4c331.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  dl.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_4c331.dir\\CheckFunctionExists.c.obj /out:cmTC_4c331.exe /implib:cmTC_4c331.lib /pdb:cmTC_4c331.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console dl.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_4c331.dir/intermediate.manifest CMakeFiles\\cmTC_4c331.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: не удается открыть файл "dl.lib"\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:540 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_CPUID_INTRINSIC"
+    directories:
+      source: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-flv2su"
+      binary: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-flv2su"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MODULE_PATH: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/src/1.23.1-180897dbaa.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_CPUID_INTRINSIC"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-flv2su'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_6c91f
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_CPUID_INTRINSIC  /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_6c91f.dir\\src.c.obj /FdCMakeFiles\\cmTC_6c91f.dir\\ /FS -c C:\\Users\\ScSmile\\source\\repos\\Assignment_2\\vcpkg_installed\\x64-windows\\vcpkg\\blds\\openal-soft\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-flv2su\\src.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\ScSmile\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.29.2-windows\\cmake-3.29.2-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_6c91f.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_6c91f.dir\\src.c.obj  /out:cmTC_6c91f.exe /implib:cmTC_6c91f.lib /pdb:cmTC_6c91f.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:549 (check_symbol_exists)"
+    checks:
+      - "Looking for posix_memalign"
+    directories:
+      source: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-giajil"
+      binary: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-giajil"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MODULE_PATH: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/src/1.23.1-180897dbaa.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_POSIX_MEMALIGN"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-giajil'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_ecb5d
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_ecb5d.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_ecb5d.dir\\ /FS -c C:\\Users\\ScSmile\\source\\repos\\Assignment_2\\vcpkg_installed\\x64-windows\\vcpkg\\blds\\openal-soft\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-giajil\\CheckSymbolExists.c
+        FAILED: CMakeFiles/cmTC_ecb5d.dir/CheckSymbolExists.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_ecb5d.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_ecb5d.dir\\ /FS -c C:\\Users\\ScSmile\\source\\repos\\Assignment_2\\vcpkg_installed\\x64-windows\\vcpkg\\blds\\openal-soft\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-giajil\\CheckSymbolExists.c
+        C:\\Users\\ScSmile\\source\\repos\\Assignment_2\\vcpkg_installed\\x64-windows\\vcpkg\\blds\\openal-soft\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-giajil\\CheckSymbolExists.c(8): error C2065: posix_memalign: необъявленный идентификатор
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:550 (check_symbol_exists)"
+    checks:
+      - "Looking for _aligned_malloc"
+    directories:
+      source: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-ex6fo9"
+      binary: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-ex6fo9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MODULE_PATH: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/src/1.23.1-180897dbaa.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE__ALIGNED_MALLOC"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-ex6fo9'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_521a4
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_521a4.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_521a4.dir\\ /FS -c C:\\Users\\ScSmile\\source\\repos\\Assignment_2\\vcpkg_installed\\x64-windows\\vcpkg\\blds\\openal-soft\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-ex6fo9\\CheckSymbolExists.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\ScSmile\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.29.2-windows\\cmake-3.29.2-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_521a4.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_521a4.dir\\CheckSymbolExists.c.obj  /out:cmTC_521a4.exe /implib:cmTC_521a4.lib /pdb:cmTC_521a4.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:551 (check_symbol_exists)"
+    checks:
+      - "Looking for proc_pidpath"
+    directories:
+      source: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-pmakw3"
+      binary: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-pmakw3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MODULE_PATH: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/src/1.23.1-180897dbaa.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_PROC_PIDPATH"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-pmakw3'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_e846f
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_e846f.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_e846f.dir\\ /FS -c C:\\Users\\ScSmile\\source\\repos\\Assignment_2\\vcpkg_installed\\x64-windows\\vcpkg\\blds\\openal-soft\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-pmakw3\\CheckSymbolExists.c
+        FAILED: CMakeFiles/cmTC_e846f.dir/CheckSymbolExists.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_e846f.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_e846f.dir\\ /FS -c C:\\Users\\ScSmile\\source\\repos\\Assignment_2\\vcpkg_installed\\x64-windows\\vcpkg\\blds\\openal-soft\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-pmakw3\\CheckSymbolExists.c
+        C:\\Users\\ScSmile\\source\\repos\\Assignment_2\\vcpkg_installed\\x64-windows\\vcpkg\\blds\\openal-soft\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-pmakw3\\CheckSymbolExists.c(2): fatal error C1083: Не удается открыть файл включение: libproc.h: No such file or directory,
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:585 (check_symbol_exists)"
+    checks:
+      - "Looking for getopt"
+    directories:
+      source: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-s255j2"
+      binary: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-s255j2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MODULE_PATH: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/src/1.23.1-180897dbaa.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_GETOPT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-s255j2'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_a88e5
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_a88e5.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_a88e5.dir\\ /FS -c C:\\Users\\ScSmile\\source\\repos\\Assignment_2\\vcpkg_installed\\x64-windows\\vcpkg\\blds\\openal-soft\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-s255j2\\CheckSymbolExists.c
+        FAILED: CMakeFiles/cmTC_a88e5.dir/CheckSymbolExists.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_a88e5.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_a88e5.dir\\ /FS -c C:\\Users\\ScSmile\\source\\repos\\Assignment_2\\vcpkg_installed\\x64-windows\\vcpkg\\blds\\openal-soft\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-s255j2\\CheckSymbolExists.c
+        C:\\Users\\ScSmile\\source\\repos\\Assignment_2\\vcpkg_installed\\x64-windows\\vcpkg\\blds\\openal-soft\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-s255j2\\CheckSymbolExists.c(2): fatal error C1083: Не удается открыть файл включение: unistd.h: No such file or directory,
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ScSmile/AppData/Local/vcpkg/downloads/tools/cmake-3.29.2-windows/cmake-3.29.2-windows-i386/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:1034 (check_include_file)"
+    checks:
+      - "Looking for mmdeviceapi.h"
+    directories:
+      source: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-kvu8v4"
+      binary: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-kvu8v4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MODULE_PATH: "C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/src/1.23.1-180897dbaa.clean/cmake"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_MMDEVICEAPI_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/x64-windows/vcpkg/blds/openal-soft/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-kvu8v4'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_72ee8
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_72ee8.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_72ee8.dir\\ /FS -c C:\\Users\\ScSmile\\source\\repos\\Assignment_2\\vcpkg_installed\\x64-windows\\vcpkg\\blds\\openal-soft\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-kvu8v4\\CheckIncludeFile.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\ScSmile\\AppData\\Local\\vcpkg\\downloads\\tools\\cmake-3.29.2-windows\\cmake-3.29.2-windows-i386\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_72ee8.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_72ee8.dir\\CheckIncludeFile.c.obj  /out:cmTC_72ee8.exe /implib:cmTC_72ee8.lib /pdb:cmTC_72ee8.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+...

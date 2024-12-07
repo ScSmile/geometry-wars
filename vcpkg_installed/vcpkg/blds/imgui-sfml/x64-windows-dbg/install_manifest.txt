@@ -1,0 +1,6 @@
+C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/vcpkg/pkgs/imgui-sfml_x64-windows/debug/lib/ImGui-SFML.lib
+C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/vcpkg/pkgs/imgui-sfml_x64-windows/debug/include/imgui-SFML.h
+C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/vcpkg/pkgs/imgui-sfml_x64-windows/debug/include/imgui-SFML_export.h
+C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/vcpkg/pkgs/imgui-sfml_x64-windows/debug/include/imconfig-SFML.h
+C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/vcpkg/pkgs/imgui-sfml_x64-windows/debug/lib/cmake/ImGui-SFML/ImGui-SFMLConfig.cmake
+C:/Users/ScSmile/source/repos/Assignment_2/vcpkg_installed/vcpkg/pkgs/imgui-sfml_x64-windows/debug/lib/cmake/ImGui-SFML/ImGui-SFMLConfig-debug.cmake
